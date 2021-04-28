@@ -17,6 +17,9 @@ max_seq_length 512, doc_stride 450, max_query_length 42, max_answer_length 16
 sentence level model token parameter setting :
 max_seq_length 192, doc_stride 128, max_query_length 42, max_answer_length 16
 
+MARCO level model token parameter setting:
+TODO: I have no idea what doc_stride means
+max_seq_length 511, doc_stride 128, max_query_length 88, max_answer_length 409
 
 ===== Training the SQG model ===== 
 
