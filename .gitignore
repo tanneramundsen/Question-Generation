@@ -3,6 +3,7 @@ QG_model/data/
 SQG_model/data/
 HLSQG_model/data/
 bert-base-uncased/pytorch_model.bin
+SQG_model/MARCO_data/MARCO*
 
 # Editor temporary/working/backup files #
 #########################################
