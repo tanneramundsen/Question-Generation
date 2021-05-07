@@ -23,7 +23,7 @@ max_seq_length 512, doc_stride 450, max_query_length 512, max_answer_length 512
 python3 SQG_train.py \
   --bert_model ../bert-base-uncased \
   --do_train \
-  --train_file data/MARCO_train_10K.json \
+  --train_file ../MARCO_train_10K.json \
   --output_dir SQG_model_MARCO_10K/ \
   --num_train_epochs 5 \
   --train_batch_size 28 \
@@ -58,8 +58,8 @@ example data:
 python3 SQG_gen_eval.py \
   --bert_model ../bert-base-uncased \
   --SQG_model SQG_model_MARCO_10K/pytorch_model.bin \
-  --output_dir data \
-  --predict_file data/MARCO_test_10K.json \
+  --output_dir . \
+  --predict_file ../MARCO_test_10K.json \
   --max_seq_length 512 \
   --doc_stride 450 \
   --max_query_length 512 \
